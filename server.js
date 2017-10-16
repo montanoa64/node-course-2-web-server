@@ -61,6 +61,14 @@ app.get('/about', (req,res) => {//this is a route
     });
 });
 
+//making a new page
+app.get('/projects', (req,res) => {
+
+    res.render('projects.hbs', {
+        pageTitle: 'Projects'
+    });
+});
+
 app.get('/bad', (req,res) => {//this is a route
     res.send({
         errorMessage: 'Unable to fullfil this request'

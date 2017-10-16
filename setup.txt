@@ -20,5 +20,10 @@ from git bash terminal
 10)vim ~/.ssh/config
 write
 Host github.com
-  Hostname ssh.github.com   
+  Hostname ssh.github.com  
   Port 443
+
+10) heroku login
+
+11)heroku keys:add
+[50.19.85.156]
